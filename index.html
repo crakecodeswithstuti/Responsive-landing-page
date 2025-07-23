@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Landing Page | MyBrand</title>
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <meta name="description" content="A creative and modern landing page for brands and portfolios." />
+  <meta property="og:title" content="Creative Landing Page | MyBrand" />
+  <meta property="og:description" content="Explore a stunning, responsive, and interactive landing page." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://yourwebsite.com/preview.jpg" />
+  <meta property="og:url" content="https://yourwebsite.com" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="loader">
+    <div class="spinner"></div>
+    <p>Loading...</p>
+  </div>
+
+  <button id="backToTop"><i class="fas fa-chevron-up"></i></button>
+
+  <header id="navbar">
+    <div class="logo">✨ MyBrand</div>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-item">Home</a></li>
+        <li><a href="#features" class="nav-item">Features</a></li>
+        <li><a href="#about" class="nav-item">About</a></li>
+        <li><a href="#testimonials" class="nav-item">Testimonials</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 class="animate-up">Welcome to <span>MyBrand</span></h1>
+      <p class="animate-up delay">Design. Develop. Delight.</p>
+      <a href="#features" class="cta-button">Discover More</a>
+    </div>
+  </section>
+
+  <section id="features" class="content-section reveal">
+    <h2><i class="fas fa-tools icon"></i> Powerful Features</h2>
+    <div class="card-grid">
+      <div class="card">
+        <i class="fas fa-bolt"></i>
+        <h3>Fast</h3>
+        <p>Lightning-fast performance on all devices.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>Responsive</h3>
+        <p>Looks stunning on phones, tablets, and desktops.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-lock"></i>
+        <h3>Secure</h3>
+        <p>Built with best practices for safety and privacy.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="content-section reveal">
+    <h2><i class="fas fa-lightbulb icon"></i> About Us</h2>
+    <p>We're a creative team passionate about building beautiful and functional websites that leave a lasting impression. Whether it's a personal brand or business, we craft web experiences that convert and inspire.</p>
+  </section>
+
+  <section id="testimonials" class="content-section reveal">
+    <h2><i class="fas fa-comments icon"></i> What People Say</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <p>"Absolutely loved working with MyBrand! Professional and creative from start to finish."</p>
+        <h4>— Priya S., Designer</h4>
+      </div>
+      <div class="testimonial-card">
+        <p>"Their landing page doubled my conversions. Can’t recommend them enough!"</p>
+        <h4>— Arjun T., Startup Founder</h4>
+      </div>
+      <div class="testimonial-card">
+        <p>"The animations and responsiveness are spot on. Great attention to detail."</p>
+        <h4>— Neha M., Developer</h4>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="content-section reveal">
+    <h2><i class="fas fa-envelope icon"></i> Get in Touch</h2>
+    <p>We'd love to hear from you. Drop us a message and we’ll get back soon!</p>
+    <a href="mailto:info@mybrand.com" class="cta-button">Contact Us</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MyBrand. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
